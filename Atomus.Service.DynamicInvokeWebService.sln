@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9C144E32-063E-4BE5-9966-F5FD69CE002C}"
+	ProjectSection(SolutionItems) = preProject
+		src\DynamicInvokeWebService.cs = src\DynamicInvokeWebService.cs
+		src\WebServiceInfo.cs = src\WebServiceInfo.cs
+		src\WebServiceObject.cs = src\WebServiceObject.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.DynamicInvokeWebService(dotNet)", "dotNet\Atomus.Service.DynamicInvokeWebService(dotNet).csproj", "{7D24BE85-683D-4E7E-8BCA-890313112BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.DynamicInvokeWebService(dotNetCore)", "dotNetCore\Atomus.Service.DynamicInvokeWebService(dotNetCore).csproj", "{1BB1D5D4-89A0-4EB6-B23A-6F5EB23D4E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Service.DynamicInvokeWebService(dotNetStandard)", "dotNetStandard\Atomus.Service.DynamicInvokeWebService(dotNetStandard).csproj", "{E1BCB596-F24B-4A9A-8233-D411AE80ECC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D24BE85-683D-4E7E-8BCA-890313112BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D24BE85-683D-4E7E-8BCA-890313112BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D24BE85-683D-4E7E-8BCA-890313112BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D24BE85-683D-4E7E-8BCA-890313112BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB1D5D4-89A0-4EB6-B23A-6F5EB23D4E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB1D5D4-89A0-4EB6-B23A-6F5EB23D4E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB1D5D4-89A0-4EB6-B23A-6F5EB23D4E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB1D5D4-89A0-4EB6-B23A-6F5EB23D4E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BCB596-F24B-4A9A-8233-D411AE80ECC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BCB596-F24B-4A9A-8233-D411AE80ECC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BCB596-F24B-4A9A-8233-D411AE80ECC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BCB596-F24B-4A9A-8233-D411AE80ECC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6779A688-9025-474C-ADCA-575364115DCB}
+	EndGlobalSection
+EndGlobal
